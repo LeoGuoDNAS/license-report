@@ -162,9 +162,9 @@ def main():
     return res
 
 # Dev
-print(main())
+# print(main())
 
 # Production
-# def lambda_handler(event, context):
-#     status = main()
-#     return status
+def lambda_handler(event, context):
+    status = main()
+    return status
