@@ -116,7 +116,7 @@ def sendEmail(
     
     msg = {
         "message": {
-            "subject": f"Sampro Active License Daily Report [{date.today()}]",
+            "subject": f"Active License Daily Report [{date.today()}]",
             "body": {
                 "contentType": "HTML",
                 "content": licenseUsage
