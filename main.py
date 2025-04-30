@@ -142,11 +142,7 @@ def main():
         "lguo@wearetheone.com",
         "achowdhury@wearetheone.com",
         "jzhang@wearetheone.com",
-        "eyuanyin@wearetheone.com",
-        "jliu@wearetheone.com",
-        "oclaros@wearetheone.com",
-        "asam@wearetheone.com",
-        "jperry@wearetheone.com"
+        "akrishnadas@wearetheone.com"
     ]
     access_token = acquire_access_token_without_user()
     samproLicenseUsage = sampro_license_in_use_api()
@@ -162,9 +158,9 @@ def main():
     return res
 
 # Dev
-print(main())
+# print(main())
 
 # Production
-# def lambda_handler(event, context):
-#     status = main()
-#     return status
+def lambda_handler(event, context):
+    status = main()
+    return status

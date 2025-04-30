@@ -9,6 +9,8 @@ Compress-Archive -Path .\\auth.py -DestinationPath .\\lambda_artifact.zip -Force
 #### Zip Py Files (follow up zips, this will update existing zip)
 Compress-Archive -Path .\\emailGenerator.py -Update -DestinationPath .\\lambda_artifact.zip
 Compress-Archive -Path .\\main.py -Update -DestinationPath .\\lambda_artifact.zip
+#### DO NOT INCLUDE .ENV FILE IN THE ZIP.
+Use AWS Lambda Function env var to configure .env
 
 ## Create a Lambda Layer for Deployment
 #### CLI commands
