@@ -1,5 +1,7 @@
 # License Report
-Report Active Sampro Licenses Daily
+Report Active Sampro Licenses Daily. \
+See below screenshot \
+![Screenshot](readme_files\screenshot.png)
 ## Deployment
 AWS Lambda + AWS EventBridge (for daily invocation)
 #### Zip Py Files (first zip, this will create a new zip)
