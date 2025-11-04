@@ -30,3 +30,5 @@ cd ..
 In your Lambda function:
 - Go to “Layers” > Add a layer
 - Choose “Custom layers”, pick your newly created layer, and Add
+#### AWS Lambda
+[https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions/sampro-license-daily-report?subtab=triggers&tab=code](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions/sampro-license-daily-report?subtab=triggers&tab=code)
